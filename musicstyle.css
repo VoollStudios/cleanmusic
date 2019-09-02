@@ -3,7 +3,10 @@
 .audio-left{
     float: left;
 }
-.audio-left audio{
+.audio-left-right{
+    float: right;
+}
+.audio-left audio, .audio-left-right audio{
     padding: 100px;
     background-size: 500px;
     background-repeat: no-repeat;
@@ -12,40 +15,22 @@
     padding-top: 210px;
     margin: 30px;
 }
-.audio-left h4{
+.audio-left h4,.audio-left-right h4{
     margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align: center;
 }
-@media screen and (max-width:800px){
-    .audio-right{
-        float: left;
-        margin: 0px;
-        margin-left: 1px;
-    }
-    .audio-right audio{
-        margin: 0px;
-        display: block;
-    }
-    .audio-right h4{
+@media screen and (max-width:700px){
+    .audio-left-right h4{
         text-align: center;
+    }
+    .audio-left-right{
+        float: left;
     }
 }
 
 /* audio right */
-.audio-right{
-    float: right;
-}
-.audio-right audio{
-    padding: 100px;
-    background-size: 500px;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    padding-bottom: 5px;
-    padding-top: 210px;
-    margin: 30px;
-}
 .audio-right h4{
     margin-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

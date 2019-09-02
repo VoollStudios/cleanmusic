@@ -18,9 +18,18 @@
     font-size: 25px;
     text-align: center;
 }
-@Media screen and (max-width:800px){
+@media screen and (max-width:800px){
     .audio-right{
         float: left;
+        margin: 0px;
+        margin-left: 1px;
+    }
+    .audio-right audio{
+        margin: 0px;
+        display: block;
+    }
+    .audio-right h4{
+        text-align: center;
     }
 }
 

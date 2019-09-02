@@ -1,0 +1,62 @@
+/* audio left */
+
+.audio-left{
+    float: left;
+}
+.audio-left audio{
+    padding: 100px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 210px;
+    margin: 30px;
+}
+.audio-left h4{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* audio right */
+.audio-right{
+    float: right;
+}
+.audio-right audio{
+    padding: 100px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 210px;
+    margin: 30px;
+}
+.audio-right h4{
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* post malone */
+#postmalonetitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+#betternow{
+    background-image: url("images/post-malone/better now.jpg");
+}
+#congratulations{
+    background-image: url("images/post-malone/Congratulations.jpg");
+    background-size: 517px;
+}
+#rockstar{
+    background-image: url("images/post-malone/rockstars.jpg");
+}
+#circles{
+    background-image: url("images/post-malone/circles.jpg");
+    background-size: 535px;
+}
+/* Future */

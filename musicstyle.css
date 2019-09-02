@@ -18,6 +18,11 @@
     font-size: 25px;
     text-align: center;
 }
+@Media screen and (max-width:800px){
+    .audio-right{
+        float: left;
+    }
+}
 
 /* audio right */
 .audio-right{

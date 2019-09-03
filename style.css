@@ -66,3 +66,10 @@
     color: rgb(32, 166, 255);
     font-size: 20px;
 }
+.about-content h1 , .about-content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-content p{
+    margin-left:40px;
+    margin-right:40px;
+}

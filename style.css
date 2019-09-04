@@ -24,6 +24,9 @@
         height:50px;
         padding-top: 15px;
     }
+    #logo h3{
+        font-size: 10px;
+    }
 }
 .header{
     background-color: black;
@@ -70,6 +73,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .about-content p{
-    margin-left:40px;
-    margin-right:40px;
+    margin-left:20%;
+    margin-right:20%;
 }

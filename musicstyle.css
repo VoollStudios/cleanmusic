@@ -82,4 +82,14 @@
 #sunflower{
     background-image: url("images/post-malone/sunflower.jpg");
 }
-/* Future */
+/* Marshmello */
+#marshmellotitle{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#happier{
+    background-image: url("images/marshmello/happier.jpg");/* Happier Image Here. */
+}
+#Alone{
+    background-image: url("images/marshmello/alone.jpg");
+}
